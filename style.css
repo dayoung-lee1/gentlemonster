@@ -423,22 +423,22 @@ img.rig{
 
   /* background-image 설정*/
   .sell .item:nth-child(1) {
-    background: url("../웹 퍼블_기말1/divice/image1.jpg") #F3F4F6 100% / cover no-repeat;
+    background: url("divice/image1.jpg") #F3F4F6 100% / cover no-repeat;
   }
   .sell .item:nth-child(2) {
-    background: url("../웹 퍼블_기말1/divice/image2.jpg") #F3F4F6 100% / cover no-repeat;
+    background: url("divice/image2.jpg") #F3F4F6 100% / cover no-repeat;
   }
   .sell .item:nth-child(3) {
-    background: url("../웹 퍼블_기말1/divice/image3.jpg") #F3F4F6 100% / cover no-repeat;
+    background: url("divice/image3.jpg") #F3F4F6 100% / cover no-repeat;
   }
   .sell .item:nth-child(4) {
-    background: url("../웹 퍼블_기말1/divice/image4.jpg") #F3F4F6 100% / cover no-repeat;
+    background: url("divice/image4.jpg") #F3F4F6 100% / cover no-repeat;
   }
   .sell .item:nth-child(5) {
-    background: url("../웹 퍼블_기말1/divice/image5.jpg") #F3F4F6 100% / cover no-repeat;
+    background: url("divice/image5.jpg") #F3F4F6 100% / cover no-repeat;
   }
   .sell .item:nth-child(6) {
-    background: url("../웹 퍼블_기말1/divice/image6.jpg") #F3F4F6 100% / cover no-repeat;
+    background: url("divice/image6.jpg") #F3F4F6 100% / cover no-repeat;
   }
 
   /* store */
