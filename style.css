@@ -1,0 +1,521 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    min-width: 1024px;
+    min-height: 100vh;
+    background-color: #ffffff;
+    
+    /* overflow: hidden; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 64px;
+    align-items: center;
+    padding: 0 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+header img {
+    width: 194px;
+    display: flex;
+}
+
+header .right {
+    display: flex;
+}
+
+header nav a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 24px;
+    text-decoration: none;
+    color: #2F3438;
+}
+
+header nav a:hover{
+    color: #674fff;
+}
+
+.hell{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 42px;
+    border: 1px solid #998E84;
+    border-radius: 32px;
+    padding: 0 16px;
+}
+
+.right p{
+    font-size: 16px;
+    color: #C2C8CC;
+}
+
+img.sear{
+    width: 24px;
+    height: 24px;
+}
+
+img.menu{
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+/* hero */
+.hero {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h4{
+    font-size: 132px;
+    font-weight: 700;
+    line-height: 364px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    color: #fff;
+}
+
+img.wow{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 28%;
+}
+
+img.lef{
+  width: 3.4%;
+  height: 6.5%;
+  position: absolute;
+  top: 47%;
+  left: 10%;
+}
+
+img.rig{
+  width: 3.4%;
+  height: 6.5%;
+  position: absolute;
+  top: 47%;
+  left: 85.5%;
+}
+
+/* recommend */
+.recommend{
+    height: 890px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 210px;
+    margin-right: 210px;
+    gap: 120px;
+}
+
+.star{
+    width: 486px;
+    height: 648px;
+}
+
+/* star item */
+.allow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whdrkd{
+  width: 3%;
+}
+
+.gmrgmr{
+  width: 3%;
+}
+
+.product-item {
+  background-color: #fff;
+  padding-right: 42px;
+}
+
+.img-box{
+  position:relative;
+  width: 500px;
+  height: 200px;
+}
+.img-box img{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+.img-box img.img-hover{
+  display:none;
+}
+.img-box:hover img.img{
+  display:none;
+}
+.img-box:hover img.img-hover{
+  display:block
+}
+
+.product-color{
+  display: flex;
+}
+
+.product-item img {
+  /* max-width: 50%; */
+  width: 100%;
+}
+
+.product-info{
+  padding-top: 12px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  /* padding: 16px; */
+}
+
+.product-color .pallete{
+  width: 18px;
+  height: 18px;
+  border: 0.3px solid #545454;
+  border-radius: 16px;
+  margin-right: 6px;
+  margin-bottom: 12px;
+  /* background-color: #674fff; */
+}
+
+.product-color .pallete:nth-child(1) {
+  background-color: #121212;
+}
+.product-color .pallete:nth-child(2) {
+  background-color: #969084;
+}
+.product-color .pallete:nth-child(3) {
+  background-color: #ADB895;
+}
+
+.product-info h3 {
+  font-size: 28px;
+  text-align: left;
+  margin: 0;
+  color: #333;
+}
+
+.product-info p {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  padding-top: 6px;
+  color: #666;
+}
+
+/* collabolation */
+.collabolation{
+    width: 100vw;
+    height: 760px;
+    padding-left: 210px;
+    padding-right: 210px;
+    background-color: #F4F4F4;
+    
+}
+
+.collabolation h3{
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.collabolation .cont {
+    display: grid;
+    gap: 20px;
+  
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 290px);
+  }
+  
+  .collabolation .item {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    background-size: cover;
+  }
+
+  .collabolation .pale h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+  }
+
+  .collabolation .item:hover .pale h2{
+    opacity: 0;
+  }
+
+  .collabolation .cher h1{
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+  }
+
+  .collabolation .cher p{
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    right: 10%;
+  }
+
+  .collabolation .cher {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .collabolation .cher:hover {
+    opacity: 1;
+  }
+  
+  .collabolation .item:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .collabolation .item:nth-child(5) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  /* background-image 설정*/
+  .collabolation .item:nth-child(1) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("collabo/1.png") lightgray 50% / cover no-repeat;
+  }
+  .collabolation .item:nth-child(2) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("collabo/2.png") lightgray 50% / cover no-repeat;
+  }
+  .collabolation .item:nth-child(3) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("collabo/3.png") lightgray 50% / cover no-repeat;
+  }
+  .collabolation .item:nth-child(4) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("collabo/4.png") lightgray 50% / cover no-repeat;
+  }
+  .collabolation .item:nth-child(5) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("collabo/5.png") lightgray 50% / cover no-repeat;
+  }
+  
+  /* 아이템에 마우스가 올라가있으면, h2의 투명도를 1로 */
+  .collabolation .item:nth-child(1):hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75) 100%), url("collabo/1.png") lightgray 50% / cover no-repeat;
+  }
+
+  .collabolation .item:nth-child(2):hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75) 100%), url("collabo/2.png") lightgray 50% / cover no-repeat;
+  }
+
+  .collabolation .item:nth-child(3):hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75) 100%), url("collabo/3.png") lightgray 50% / cover no-repeat;
+  }
+
+  .collabolation .item:nth-child(4):hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75) 100%), url("collabo/4.png") lightgray 50% / cover no-repeat;
+  }
+
+  .collabolation .item:nth-child(5):hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75) 100%), url("collabo/5.png") lightgray 50% / cover no-repeat;
+  }
+
+  .collabolation .item:nth-child(6):hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75) 100%), url("collabo/6.png") lightgray 50% / cover no-repeat;
+  }
+
+  /* 제품 구매 */
+  .sell{
+    width: 100vw;
+    height: 760px;
+    padding-left: 210px;
+    padding-right: 210px;
+    background-color: #ffffff;
+}
+
+.sell h3{
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.sell .cont {
+    display: grid;
+    gap: 20px;
+  
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 190px);
+  }
+  
+  .sell .item {
+    background-color: #F3F4F6;
+    position: relative;
+    background-size: cover;
+  }
+
+  .sell .item h2{
+    font-size: 16px;
+    text-align: center;
+    color: #2c2c2c;
+    padding-top: 24px;
+  }
+
+  .sell .item:hover{
+    transform: scaleY(1.04);
+  }
+  
+  .sell .item:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .sell .item:nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .sell .item:nth-child(5) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  /* background-image 설정*/
+  .sell .item:nth-child(1) {
+    background: url("../웹 퍼블_기말1/divice/image1.jpg") #F3F4F6 100% / cover no-repeat;
+  }
+  .sell .item:nth-child(2) {
+    background: url("../웹 퍼블_기말1/divice/image2.jpg") #F3F4F6 100% / cover no-repeat;
+  }
+  .sell .item:nth-child(3) {
+    background: url("../웹 퍼블_기말1/divice/image3.jpg") #F3F4F6 100% / cover no-repeat;
+  }
+  .sell .item:nth-child(4) {
+    background: url("../웹 퍼블_기말1/divice/image4.jpg") #F3F4F6 100% / cover no-repeat;
+  }
+  .sell .item:nth-child(5) {
+    background: url("../웹 퍼블_기말1/divice/image5.jpg") #F3F4F6 100% / cover no-repeat;
+  }
+  .sell .item:nth-child(6) {
+    background: url("../웹 퍼블_기말1/divice/image6.jpg") #F3F4F6 100% / cover no-repeat;
+  }
+
+  /* store */
+  .store{
+    display: flex;
+    position: relative;
+    width: 100vw;
+  }
+
+  .store img{
+    width: 100vw;
+    height: 640px;
+    object-fit: cover;
+  }
+
+  .pail{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 24%;
+    left: 36%;
+  }
+
+  .pail h5{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .pail p{
+    font-size: 16px;
+    margin-bottom: 42px;
+  }
+
+  .pail a{
+    font-size:16px;
+    font-weight: 500;
+    margin-top: 36px;
+    text-decoration: none;
+    color: #2F3438;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    border-radius: 1px;
+
+    padding: 14px 32px;
+    border-radius: 2px;
+  }
+
+  footer{
+    width: 100vw;
+    background-color: #F3F3F3;
+    display: flex;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  footer img{
+    width: 194px;
+    height: 20px;
+    margin-right: 60px;
+  }
+
+  footer h6{
+    font-size: 17px;
+    color: #999999;
+  }
+
+  p.middle{
+    margin-top: 4px;
+    font-size: 14px;
+    color: #999999;
+  }
+
+  p.small{
+    margin-top: 12px;
+    font-size: 12px;
+    color: #999999;
+  }
